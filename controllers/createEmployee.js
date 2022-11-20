@@ -33,7 +33,6 @@ const createEmployee = async (req, res) => {
         { new: true },
       )
 
-      // res.status(201).json(JSON.stringify(updatedEmployee));
       res.status(201).json(updatedEmployee);
           
     } else {
